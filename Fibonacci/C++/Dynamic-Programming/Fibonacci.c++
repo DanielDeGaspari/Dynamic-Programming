@@ -12,6 +12,7 @@ int fibonacci(int n) {
     fib[1] = 1; //n=1 : 1;
 
     for (int i=2; i<=n; i++) {
+        // Store the result of sum of previous 2 numbers
         fib[i] = fib[i-2]+fib[i-1];
     }
 
