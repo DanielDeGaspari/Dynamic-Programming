@@ -20,6 +20,7 @@ public class Fibonacci {
         System.out.println("Insert value:");
         Scanner scanner = new Scanner(System.in);
         int n = scanner.nextInt();
+        scanner.close();
         //Calculate result
         String result = String.format("Fibonacci for %s : %s", n, fibonacci(n));
         System.out.println(result);

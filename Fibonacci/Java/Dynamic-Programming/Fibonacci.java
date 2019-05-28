@@ -13,9 +13,10 @@ public class Fibonacci {
         fib[1] = 1; //n=1 : 1;
 
         for (int i = 2; i <= n; i++) {
+            // Store the result of sum of previous 2 numbers
             fib[i] = fib[i - 2] + fib[i - 1];
         }
-
+        
         return fib[n];
     }
 
@@ -23,6 +24,7 @@ public class Fibonacci {
         System.out.println("Insert value:");
         Scanner scanner = new Scanner(System.in);
         int n = scanner.nextInt();
+        scanner.close();
         //Calculate result
         String result = String.format("Fibonacci for %s : %s", n, fibonacci(n));
         System.out.println(result);

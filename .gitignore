@@ -1,7 +1,8 @@
-#IntelliJ
-
+#IDE
 .idea/
 *.iml
+.vscode/
+
 
 #Output
 out/
