@@ -5,3 +5,5 @@
 
 #Output
 out/
+target/
+*.class
