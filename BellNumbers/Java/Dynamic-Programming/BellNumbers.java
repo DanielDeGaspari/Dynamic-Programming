@@ -2,20 +2,6 @@ import java.util.Scanner;
 
 public class BellNumbers {
 
-    //Calculate factorial for num
-    private static int factorial(int num) {
-        //base case:
-        if (num <=1) {
-            return 1;
-        }
-        return num * factorial(num-1);
-    }
-
-    //Calculate combination nCk
-    private static int combine(int n, int k) {
-        return factorial(n) / (factorial(k) * factorial(n-k));
-    }
-
     //Calculate Bell Number for n
     private static int bellNumbers(int n) {
         //Store Combination calculated
