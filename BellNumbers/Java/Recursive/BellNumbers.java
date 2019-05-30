@@ -17,7 +17,7 @@ public class BellNumbers {
 
     //Calculate combination: nCi
     private static int combine(int n, int k) {
-        return factorial(n) / ((factorial(k) * (factorial(n - k))));
+        return factorial(n) / (factorial(k) * (factorial(n-k)));
     }
 
     //Calculate bellNumber for n
