@@ -17,7 +17,7 @@ int fibonacci(int n) {
 
 int main() {
     int n;
-    cout << "Insert value:"<<endl;
+    cout << "Enter value:"<<endl;
     cin >> n;
     cout << "Fibonacci for " << n << " : " << fibonacci(n) << endl;
     return 0;
