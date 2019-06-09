@@ -19,7 +19,7 @@ string lcs(string s1, string s2, string result) {
     string sx = lcs(s1.substr(1), s2, result);
     //calculate lcs for s1 and s2[1..s2.length()]
     string dx = lcs(s1, s2.substr(1), result);
-    return sx.length() > dx.length() ? sx : dx;
+    return sx.length() >= dx.length() ? sx : dx;
 }
 
 int main() {
